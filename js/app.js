@@ -15,3 +15,12 @@ function resizeHeaderOnScroll() {
 }
 
 window.addEventListener("scroll", resizeHeaderOnScroll);
+
+// Activando menu mobile
+function mobileMenutrigger() {
+  this.classList.toggle("active");
+}
+
+const hamburguer = document.getElementById("navTrigger");
+
+hamburguer.addEventListener("click", mobileMenutrigger);

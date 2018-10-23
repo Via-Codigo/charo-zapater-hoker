@@ -3,10 +3,10 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");
 @import "reset.css";
 @import "base.css";
+@import "menu.css";
 
 /* HEADER START */
 .header {
-  overflow: hidden;
   background-color: transparent;
   top: 0;
   left: 0;
@@ -65,6 +65,41 @@
   letter-spacing: 2px;
   font-size: 13px;
   text-transform: uppercase;
+}
+
+.menu-link-sub-parent {
+  position: relative;
+}
+
+.menu-sub {
+  display: none;
+  position: absolute;
+  width: 150px;
+  top: 20px;
+  background-color: #fff;
+  border-left: 3px solid #000;
+  padding: 5px;
+}
+
+.menu-sub a {
+  padding: 5px;
+  color: #000;
+}
+
+.menu-link-sub-parent:hover .menu-sub {
+  display: block;
+}
+
+.menu-sub:hover {
+  display: block;
+}
+
+.mobile-menu {
+  position: relative;
+  width: 100%;
+  z-index: 999;
+  height: 100%;
+  background-color: #fff;
 }
 
 /* HEADER END */
