@@ -99,9 +99,14 @@
 /* CATEGORIES GALLERY */
 
 .categories-menu {
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
   margin-bottom: 40px;
+}
+
+.categories-menu-item {
+  display: inline-block;
+  line-height: 1.5;
+  margin: 0 25px;
 }
 
 .categories-menu-link {
