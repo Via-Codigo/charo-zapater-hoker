@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bs4/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 
 <body>
@@ -20,96 +21,123 @@
             </div>
             <nav class="menu d-none d-lg-block">
                 <ul class="menu-ul">
-                    <li class="menu-item"><a href="" class="menu-link">item-1</a></li>
-                    <li class="menu-item menu-link-sub-parent"><a href="" class="menu-link ">item-2
-
-                        </a>
+                    <li class="menu-item"><a href="index.html" class="menu-link">Inicio</a></li>
+                    <li class="menu-item"><a href="cv.html" class="menu-link">Cv</a></li>
+                    <li class="menu-item menu-link-sub-parent"><a href="#" class="menu-link ">Obras</a>
                         <ul class="menu-sub">
                             <li class="menu-sub-item">
-                                <a href="#" class="menu-sub-link">sub item 1</a>
+                                <a href="pinturas.html" class="menu-sub-link">Pinturas</a>
                             </li>
                             <li class="menu-sub-item">
-                                <a href="#" class="menu-sub-link">sub item 2</a>
+                                <a href="dibujos.html" class="menu-sub-link">Dibujos</a>
                             </li>
                             <li class="menu-sub-item">
-                                <a href="#" class="menu-sub-link">sub item 3</a>
+                                <a href="grabados.html" class="menu-sub-link">Grabados</a>
                             </li>
                             <li class="menu-sub-item">
-                                <a href="#" class="menu-sub-link">sub item 4</a>
+                                <a href="proyectos.html" class="menu-sub-link">Proyectos</a>
+                            </li>
+                            <li class="menu-sub-item">
+                                <a href="performance.html" class="menu-sub-link">Performance</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="menu-item"><a href="" class="menu-link">item-3</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">item-4</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">item-5</a></li>
-                    <li class="menu-item"><a href="" class="menu-link">item-6</a></li>
-
+                    <li class="menu-item"><a href="contact.html" class="menu-link">Contacto</a></li>
                 </ul>
             </nav>
             <div class=" d-none d-block d-lg-none">
-                <a href="#menu" class="menu-link">&#9776;</a>
+                <a href="#menu" class="menu-link" id="navtrigger">&#9776;</a>
 
                 <nav id="menu" class="panel" role="navigation">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">The Ballad of El Goodo</a></li>
-                        <li><a href="#">Thirteen</a></li>
-                        <li><a href="#">September Gurls</a></li>
-                        <li><a href="#">What's Going Ahn</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="cv.html">cv</a></li>
+                        <li><a href="index.html#obras">Obras</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
     </header>
     <section id="hero-home" class="hero">
         <div class="container">
-            <p class="hero-lema">Work hard & Dream big.</p>
-            <p class="hero-sub-lema"><span> A wonderful serenity has taken possession of my entire soul, </span><br>
-                <span>like these
-                    sweet mornings of spring which I enjoy with my whole heart.</span></p>
+            <p class="hero-lema">Insprirados En Lo Ancestral.</p>
+            <p class="hero-sub-lema"><span> Con la inspiracion y la creatividad, que nos diferencia</span><br>
+                <span>con Charo Zapater.</span></p>
         </div>
     </section>
     <section class="section-lg section-grey" id="home-galeria">
         <div class="container">
             <div class="row">
-
                 <h2 class="col-sm-12">Mis Obras</h2>
             </div>
             <div class="row">
                 <div class="col-12">
 
-                    <ul class="categories-menu   ">
-                        <li class="categories-menu-item"><a href="" class="categories-menu-link">categoria-1</a></li>
-                        <li class="categories-menu-item"><a href="" class="categories-menu-link">categoria-2</a></li>
-                        <li class="categories-menu-item"><a href="" class="categories-menu-link">categoria-3</a></li>
-                        <li class="categories-menu-item"><a href="" class="categories-menu-link">categoria-4</a></li>
-                        <li class="categories-menu-item"><a href="" class="categories-menu-link">categoria-5</a></li>
-                        <li class="categories-menu-item"><a href="" class="categories-menu-link">categoria-6</a></li>
+                    <ul class="categories-menu">
+                        <li class="categories-menu-item"><a href="pinturas.html" class="categories-menu-link">Pinturas</a></li>
+                        <li class="categories-menu-item"><a href="dibujos.html" class="categories-menu-link">Dibujos</a></li>
+                        <li class="categories-menu-item"><a href="grabados.html" class="categories-menu-link">Grabados</a></li>
+                        <li class="categories-menu-item"><a href="proyectos.html" class="categories-menu-link">Proyectos</a></li>
+                        <li class="categories-menu-item"><a href="performance.html" class="categories-menu-link">Performance</a></li>
+                        <li class="categories-menu-item"><a href="#" class="categories-menu-link">instalaciones</a></li>
+                        <li class="categories-menu-item"><a href="#" class="categories-menu-link">Otros</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div id="obras" class="container-fluid">
             <div class="row">
-                <a href="#" class="galeria-item col-sm-12 col-md-6 col-lg-4">
-                    <img src="https://images.unsplash.com/photo-1506377585622-bedcbb027afc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjF9&s=c4a70d8de3a43dbdb618824568b5c1af&auto=format&fit=crop&w=1350&q=80"
-                        alt="">
+                <a href="pinturas.html" class="galeria-item col-sm-12 col-md-6 col-lg-4">
+                    <img src="imagen/imagen-7-1.jpg" alt="">
                     <div class="galeria-item-desc">
                         <div class="galeria-item-desc-text">
 
-                            <h3>Cielo en Escocia</h3>
-                            <p>No se de que va esto pero se ve bonito</p>
+                            <h3>PINTURAS</h3>
+                            <p>Nuestras Pinturas</p>
                         </div>
                     </div>
                 </a>
 
-                <a href="#" class="galeria-item col-sm-12 col-md-6 col-lg-4">
-                    <img src="https://images.unsplash.com/photo-1493749944635-e7c30e1e7c44?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c856b2cc8198047d1d839e2d3c1bc6f3&auto=format&fit=crop&w=1350&q=80"
-                        alt="">
+                <a href="dibujos.html" class="galeria-item col-sm-12 col-md-6 col-lg-4">
+                    <img src="imagen/1-1.jpg" alt="">
                     <div class="galeria-item-desc">
                         <div class="galeria-item-desc-text">
 
-                            <h3>Cielo en Escocia</h3>
-                            <p>No se de que va esto pero se ve bonito</p>
+                            <h3>DIBUJOS</h3>
+                            <p>Nuestros Dibujos</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="grabados.html" class="galeria-item col-sm-12 col-md-6 col-lg-4">
+                    <img src="imagen/grabado-1.jpg" alt="">
+                    <div class="galeria-item-desc">
+                        <div class="galeria-item-desc-text">
+
+                            <h3>GRABADOS</h3>
+                            <p>Nuestros Grabados</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="proyectos.html" class="galeria-item col-sm-12 col-md-6 col-lg-4">
+                    <img src="imagen/juego-1.JPG" alt="">
+                    <div class="galeria-item-desc">
+                        <div class="galeria-item-desc-text">
+
+                            <h3>PROYECTOS</h3>
+                            <p>Nuestros Proyectos</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="performance.html" class="galeria-item col-sm-12 col-md-6 col-lg-4">
+                    <img src="imagen/performance/performance-1.jpg" alt="">
+                    <div class="galeria-item-desc">
+                        <div class="galeria-item-desc-text">
+
+                            <h3>PERFORMANCE</h3>
+                            <p>Nuestros Folios</p>
                         </div>
                     </div>
                 </a>
@@ -120,68 +148,121 @@
                     <div class="galeria-item-desc">
                         <div class="galeria-item-desc-text">
 
-                            <h3>Cielo en Escocia</h3>
-                            <p>No se de que va esto pero se ve bonito</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="row">
-                <a href="#" class="galeria-item col-sm-12 col-md-6 col-lg-4">
-                    <img src="https://images.unsplash.com/photo-1506377585622-bedcbb027afc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjF9&s=c4a70d8de3a43dbdb618824568b5c1af&auto=format&fit=crop&w=1350&q=80"
-                        alt="">
-                    <div class="galeria-item-desc">
-                        <div class="galeria-item-desc-text">
-
-                            <h3>Cielo en Escocia</h3>
-                            <p>No se de que va esto pero se ve bonito</p>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="#" class="galeria-item col-sm-12 col-md-6 col-lg-4">
-                    <img src="https://images.unsplash.com/photo-1493749944635-e7c30e1e7c44?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c856b2cc8198047d1d839e2d3c1bc6f3&auto=format&fit=crop&w=1350&q=80"
-                        alt="">
-                    <div class="galeria-item-desc">
-                        <div class="galeria-item-desc-text">
-
-                            <h3>Cielo en Escocia</h3>
-                            <p>No se de que va esto pero se ve bonito</p>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="#" class="galeria-item col-sm-12 col-md-6 col-lg-4">
-                    <img src="https://images.unsplash.com/photo-1478454277283-1456f068e8da?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fd011294a8720542e819bf7a28582680&auto=format&fit=crop&w=1350&q=80"
-                        alt="">
-                    <div class="galeria-item-desc">
-                        <div class="galeria-item-desc-text">
-
-                            <h3>Cielo en Escocia</h3>
-                            <p>No se de que va esto pero se ve bonito</p>
+                            <h3>OTROS</h3>
+                            <p>Libros, Videos y Objetos</p>
                         </div>
                     </div>
                 </a>
             </div>
         </div>
     </section>
+    <section class="section-lg section-grey" id="home-galeria">
+        <div class="container">
+            <div class="row">
+                <h2 class="col-sm-12">Quien Soy</h2>
+            </div>
+            <div class="row">
+                <!-- POST ITEM -->
+                <div class=" col-12 col-sm-6">
+                    <div class="post">
+                        <div class="post-header">
+                            <h2 class="post-title">Charo Zapater Roman</h2>
+                        </div>
+                        <div class="post-entry">
+                            <p>Charo Zapater Pomar, de nacionalidad peruana, sigue estudios de Arte en la especialidad
+                                de
+                                Pintura en: Burton Manor Collage, Chaester Inglaterra.
+                                Grabado, en la Escuela de Bellas Artes de San Jordi, Barcelona, España y en 1976
+                                obtiene la
+                                Licenciatura con honores en la escuela de Bellas Artes de Roma,
+                                Italia. En el 2003 hace investigación de técnicas ancestrales en Camerún, Africa. En el
+                                2004 y
+                                2005 colabora con AXIS Arte grupo interdiciplinario de
+                                investigacion aplicada en arte y diseño de la Facultad de Arte-Universidad Católica del
+                                Perú.
+                                2006 - 2008 Sigue una ....</p>
+                        </div>
+                    </div>
+                    <div class="post-more">
+                        <a href="cv.html" class="more-link">Ver Mas</a>
+                    </div>
+                </div>
+                <!-- /POST ITEM -->
+
+                <!-- POST ITEM -->
+                <div class="col-12 col-sm-6">
+                    <div class="post">
+                        <div class="">
+                            <img class="img-fluid" src="imagen/rosario-zapater.JPG" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- /POST ITEM -->
+            </div>
+        </div>
+    </section>
+    <!--CONTACT-->
+    <section class="contact">
+        <div class="container">
+
+            <div class="section-title">
+                <h3>CONTÁCTAME</h2>
+            </div>
+            <!-- CONTACT FORM -->
+            <div class="row centrar">
+
+                <div class="col-sm-6 col-sm-offset-3">
+
+                    <form>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="cname">Nombre Completo</label>
+                            <input type="text" class="form-control" name="cname" placeholder="Nombre Completo">
+                            <p class="help-block text-danger"></p>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="sr-only" for="cemail">Tu Correo</label>
+                            <input type="email" id="cemail" name="cemail" class="form-control" placeholder="Tu Correo"
+                                required="">
+                            <p class="help-block text-danger"></p>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" id="cmessage" name="cmessage" rows="7" placeholder="Mensaje"
+                                required=""></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+
+                        <button type="submit" class="btn">Enviar</button>
+
+                    </form>
+
+                    <!-- Ajax response -->
+                    <div id="contact-response" class="ajax-response font-alt"></div>
+
+                </div>
+
+            </div>
+            <!-- /CONTACT FORM -->
+        </div>
+    </section>
+
+    <!-- CONTACT -->
 
     <footer class="footer ">
         <p class="copyright">&copy; Charo Zapater 2018</p>
     </footer>
     <script src="js/jquery3.3.1-slim.min.js"></script>
     <script src="js/poper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--<script src="js/bootstrap.bundle.min.js"></script>-->
     <script src="js/bigslide.js"></script>
+    <script src="lightgallery/js/lightgallery.min.js"></script>
     <script src="js/app.js"></script>
 
 
 
-    <script>
-        $(document).ready(function () {
-            $('.menu-link').bigSlide();
-        });
-    </script>
+
 </body>
 
 </html>

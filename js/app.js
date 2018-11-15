@@ -21,6 +21,12 @@ function mobileMenutrigger() {
   this.classList.toggle("active");
 }
 
-const hamburguer = document.getElementById("navTrigger");
+const hamburguer = document.getElementById("navtrigger");
 
 hamburguer.addEventListener("click", mobileMenutrigger);
+
+lightGallery(document.getElementById('home-galeria'), { selector: ".item-lightbox ", getCaptionFromTitleOrAlt: true, });
+
+$(document).ready(function () {
+  $('#navtrigger').bigSlide();
+});
